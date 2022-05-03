@@ -1,9 +1,23 @@
 /* Header */
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
 }
 
+/* Logo Links */
+.my-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.my-link-logo {
+    font-size: 3rem;
+}
+.twitter-link {
+    color: #00acee;
+}
 /* Light Switch */
 .checkbox {
     opacity: 0;
@@ -19,8 +33,9 @@
     padding: 5px;
     border-radius: 50px;
     height: 26px;
-    width: 50px;
+    width: 70px;
     cursor: pointer;
+    transition: 300ms;
 }
 
 .ball {
@@ -35,7 +50,11 @@
 }
 
 .checkbox:checked + label .ball {
-    transform: translateX(24px);
+    transform: translateX(42px);
+}
+
+.checkbox:checked + label {
+    background-color: var(--primary-color);
 }
 
 .moon {
@@ -44,4 +63,19 @@
 
 .sun {
     color: yellow; 
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.intro-heading + .intro-heading {
+    margin-top: 1rem;
+}
+
+.passion {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: left;
 }

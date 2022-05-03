@@ -19,3 +19,17 @@ font-family: 'Ubuntu', sans-serif; */
 body.dark-theme {
   background-color: black;
 }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
