@@ -4,6 +4,11 @@
   --secondary-color: white;
 }
 
+/* Fonts (Ubuntu and Shadows Into Light */
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu&display=swap');
+
 /* Global stylings */
 *, *::before, *::after {
   margin: 0;
