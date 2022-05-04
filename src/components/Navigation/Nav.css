@@ -1,0 +1,21 @@
+nav {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 1.5rem 2.5rem;
+    border-radius: .8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    opacity: .8;
+}
+
+.nav-icon {
+    font-size: 2rem;
+}

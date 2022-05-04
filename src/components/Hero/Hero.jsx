@@ -4,8 +4,8 @@ import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai'
 import { BsFillSunFill } from 'react-icons/bs'
 import { BsMoonStarsFill } from 'react-icons/bs'
 import KUTE from 'kute.js'
-import Blob1 from '../assets/blob.svg'
-import Blob2 from '../assets/blob2.svg'
+import Blob1 from '../../assets/blob.svg'
+import Blob2 from '../../assets/blob2.svg'
 
 const Hero = () => {
 
