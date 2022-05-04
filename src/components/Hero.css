@@ -78,4 +78,38 @@
 .passion {
     font-family: 'Shadows Into Light', cursive;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5rem auto;
+    position: relative;
+    z-index: 5;
+}
+
+/* Divider 1 */
+.divider1-container {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.divider1 {
+    margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider1 svg {
+    position: relative;
+    display: block;
+    width: calc(167% + 1.3px);
+    height: 433px;
+}
+
+.divider1 .shape-fill {
+    fill: #4D0ED1;
 }
