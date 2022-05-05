@@ -98,7 +98,11 @@
     color: black;
     display: flex;
     flex-direction: column;
+    animation: arrow-down-animation 3s infinite alternate;
+    cursor: pointer;
+    z-index: 1;
 }
+
 
 /* Divider 1 */
 .divider1-container {
@@ -125,4 +129,17 @@
 
 .divider1 .shape-fill {
     fill: #4D0ED1;
+}
+
+@keyframes arrow-down-animation {
+
+    50% {
+        transform: translateY(30px);
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+
+    100% {
+        trasform: translateY(0px);
+    }
 }

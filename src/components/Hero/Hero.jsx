@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import './Hero.css'
+import { gsap } from "gsap"
 import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai'
 import { BsFillSunFill } from 'react-icons/bs'
 import { BsMoonStarsFill } from 'react-icons/bs'
@@ -15,10 +16,16 @@ const Hero = () => {
         document.body.classList.toggle("dark-theme");
     }
 
-    //Refs
+    // Refs
+    const hiRef = useRef();
+    const nameRef = useRef();
+    const devRef = useRef();
     const blobRef = useRef();
     const blob2Ref = useRef();
 
+    //Animations
+
+    // Blob animation
     useEffect(() => {
         const tween = KUTE.fromTo(
             blobRef.current,
@@ -28,7 +35,13 @@ const Hero = () => {
         )
     
         tween.start()
-    }, [])
+    }, []);
+
+    // Name animation
+    useEffect(() => {
+        gsap.fromTo(hiRef.current, {x: "-100px", opacity: 0,}, {x: "0px", opacity: 1, duration: 1});
+        gsap.fromTo(nameRef.current, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, duration: 1, delay: 1})
+    })
 
 
   return (
@@ -50,9 +63,9 @@ const Hero = () => {
     </header>
 
     <section className="hero">
-        <h3 className="intro-heading">Hi!, My name is,</h3>
-        <h1 className="intro-heading">Ziabeher Phillips</h1>
-        <h3 className="intro-heading">A UI / UX Developer</h3>
+        <h3 ref={hiRef} className="intro-heading">Hi!, My name is,</h3>
+        <h1 ref={nameRef} className="intro-heading">Ziabeher Phillips</h1>
+        <h3 ref={devRef} className="intro-heading">A UI / UX Developer</h3>
 
         <div className="passion">
             <h1>"You can't teach Passion"</h1>
@@ -72,7 +85,7 @@ const Hero = () => {
     </section>
 
     <div className="arrow-animation">
-        <IoIosArrowDown/>
+        <IoIosArrowDown className="arrow-down"/>
         <IoIosArrowDown/>
         <IoIosArrowDown/>
     </div>

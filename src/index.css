@@ -16,6 +16,10 @@ font-family: 'Ubuntu', sans-serif; */
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body.dark-theme {
   background-color: black;
 }
