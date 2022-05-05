@@ -3,9 +3,8 @@ import './Hero.css'
 import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai'
 import { BsFillSunFill } from 'react-icons/bs'
 import { BsMoonStarsFill } from 'react-icons/bs'
+import { IoIosArrowDown } from 'react-icons/io'
 import KUTE from 'kute.js'
-import Blob1 from '../../assets/blob.svg'
-import Blob2 from '../../assets/blob2.svg'
 
 const Hero = () => {
 
@@ -21,7 +20,6 @@ const Hero = () => {
     const blob2Ref = useRef();
 
     useEffect(() => {
-        console.log(blob2Ref.current)
         const tween = KUTE.fromTo(
             blobRef.current,
             {path: blobRef.current},
@@ -72,6 +70,12 @@ const Hero = () => {
             </div>
         </div>
     </section>
+
+    <div className="arrow-animation">
+        <IoIosArrowDown/>
+        <IoIosArrowDown/>
+        <IoIosArrowDown/>
+    </div>
 
     <section className="divider1-container">
     <div className="divider1">

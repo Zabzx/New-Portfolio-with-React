@@ -26,7 +26,7 @@
 
 .label {
     position: relative;
-    background-color: black;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,11 +58,11 @@
 }
 
 .moon {
-    color: white;
+    color: var(--primary-color);
 }
 
 .sun {
-    color: yellow; 
+    color: var(--secondary-color); 
 }
 
 /* Hero */
@@ -82,15 +82,28 @@
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    margin: 5rem auto;
-    position: relative;
-    z-index: 5;
+    margin: 2rem auto;
+    padding-top: 0px;
+}
+
+/* Arrow Animation */
+.arrow-animation {
+    position: absolute;
+    bottom: 19%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Divider 1 */
 .divider1-container {
     position: relative;
-    padding-bottom: 2rem;
+    margin-top: 10rem;
 }
 
 .divider1 {
