@@ -28,6 +28,10 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -37,3 +41,7 @@ h1 {
   margin: 0 auto;
 }
 
+.secondary-color {
+  color: var(--secondary-color);
+  font-weight: 600;
+}

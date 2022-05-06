@@ -1,0 +1,53 @@
+/* About */
+.about-container {
+    background-color: var(--primary-color);
+}
+.about {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.about-img img {
+    height: 300px;
+    border-radius: 1rem;
+}
+
+/* Tags */
+.about-tags {
+    display: flex;
+    gap: 1rem;
+}
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem .8rem;
+    transition: 300ms;
+}
+
+.tag:hover {
+    background-color: var(--secondary-color);
+}
+
+.tag-icon {
+    font-size: 2rem;
+    color: var(--primary-color)
+}
+.about-txt {
+    width: 50%;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about-txt p {
+    line-height: 1.5;
+}

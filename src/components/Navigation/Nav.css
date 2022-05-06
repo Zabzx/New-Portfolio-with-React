@@ -13,7 +13,6 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    opacity: .8;
     z-index: 5;
 }
 
