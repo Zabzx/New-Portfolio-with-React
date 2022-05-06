@@ -43,6 +43,35 @@ const Hero = () => {
         gsap.fromTo(nameRef.current, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, duration: 1, delay: 1})
     })
 
+    //Typewriting Effect
+    useEffect(() => {
+        function typeWriting() {
+            const texts = ['Front End Web Developer', 'UI/UX Developer', 'Problem Solver.'];
+            let count = 0;
+            let index = 0;
+            let currentText = '';
+            let letter = '';
+        
+            (function type() {
+                if (count === texts.length) {
+                    count = 0;
+                }
+        
+                currentText = texts[count]
+                letter = currentText.slice(0, ++index)
+        
+                devRef.current.innerText = letter;
+        
+                if (letter.length === currentText.length) {
+                    count++;
+                    index = 0;
+                }
+        
+                setTimeout(type, 100)
+            }());
+        }
+        typeWriting();
+    })
 
   return (
   <>
@@ -65,7 +94,7 @@ const Hero = () => {
     <section className="hero">
         <h3 ref={hiRef} className="intro-heading">Hi!, My name is,</h3>
         <h1 ref={nameRef} className="intro-heading">Ziabeher Phillips</h1>
-        <h3 ref={devRef} className="intro-heading">A UI / UX Developer</h3>
+        <h3 ref={devRef} className="intro-heading typing">A UI / UX Developer</h3>
 
         <div className="passion">
             <h1>"You can't teach Passion"</h1>
