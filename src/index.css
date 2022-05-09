@@ -49,3 +49,7 @@ h1 {
   color: var(--secondary-color);
   font-weight: 600;
 }
+
+a {
+  color: var(--secondary-color)
+}
