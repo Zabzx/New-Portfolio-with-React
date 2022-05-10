@@ -8,7 +8,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className="about-container">
-    <section className="about container">
+    <section id="about" className="about container">
         <div className="about-img">
         <img alt="GIF" src="https://tenor.com/view/coding-gif-24297652.gif/" />
         </div>

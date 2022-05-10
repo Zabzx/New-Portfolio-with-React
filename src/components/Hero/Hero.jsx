@@ -75,7 +75,7 @@ const Hero = () => {
 
   return (
   <>
-    <header className="header container">
+    <header id="home" className="header container">
         <div className="my-links">
             <AiFillGithub className="my-link-logo"/>
             <AiOutlineTwitter className="my-link-logo twitter-link"/>

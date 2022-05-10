@@ -18,4 +18,14 @@ nav {
 
 .nav-icon {
     font-size: 2rem;
+    color: var(--primary-color);
+    transition: 300ms;
+}
+
+.nav-icon:hover {
+    transform: rotate(45deg);
+}
+
+.nav-icon:active {
+    transform: scale(.2);
 }

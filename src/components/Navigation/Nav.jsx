@@ -11,12 +11,12 @@ import React from 'react'
 const Nav = () => {
   return (
     <nav>
-        <AiFillHome className='nav-icon'/>
-        <BsFillPersonFill className='nav-icon'/>
-        <AiFillFolderOpen className='nav-icon'/>
-        <GrTechnology className='nav-icon'/>
-        <MdOutlineContactSupport className='nav-icon'/>
-        <AiOutlineArrowDown className='nav-icon'/>
+        <a href="#home"><AiFillHome className='nav-icon'/></a>
+        <a href="#about"><BsFillPersonFill className='nav-icon'/></a>
+        <a href="#tech"><GrTechnology className='nav-icon'/></a>
+        <a href="#projects"><AiFillFolderOpen className='nav-icon'/></a>
+        <a href="#contact"><MdOutlineContactSupport className='nav-icon'/></a>
+        <a href="#footer"><AiOutlineArrowDown className='nav-icon'/></a>
     </nav>
   )
 }
