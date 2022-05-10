@@ -4,6 +4,7 @@ import About from "./components/About/About.jsx";
 import Tech from "./components/Tech/Tech.jsx"
 import Projects from "./components/Projects/Projects.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Tech/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
