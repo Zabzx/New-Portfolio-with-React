@@ -14,6 +14,7 @@ const Hero = () => {
 
     const lightSwitch = () => {
         document.body.classList.toggle("dark-theme");
+        setLightToggle(!lightToggle);
     }
 
     // Refs
@@ -22,6 +23,7 @@ const Hero = () => {
     const devRef = useRef();
     const blobRef = useRef();
     const blob2Ref = useRef();
+    const gitHubLinkRef = useRef();
 
     //Animations
 
@@ -39,7 +41,7 @@ const Hero = () => {
 
     // Name animation
     useEffect(() => {
-        gsap.fromTo(hiRef.current, {x: "-100px", opacity: 0,}, {x: "0px", opacity: 1, duration: 1});
+        gsap.fromTo(hiRef.current, {x: "-100px", opacity: 0}, {x: "0px", opacity: 1, duration: 1});
         gsap.fromTo(nameRef.current, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, duration: 1, delay: 1})
     })
 
@@ -77,8 +79,8 @@ const Hero = () => {
   <>
     <header id="home" className="header container">
         <div className="my-links">
-            <AiFillGithub className="my-link-logo"/>
-            <AiOutlineTwitter className="my-link-logo twitter-link"/>
+            <a href="https://github.com/Zabzx" tartget="_blank"><AiFillGithub className={lightToggle ? " my-link-logo github-link-white" : "my-link-logo github-link"}/></a>
+            <a href="https://twitter.com/zabzDev" target="_blank"><AiOutlineTwitter className="my-link-logo twitter-link"/></a>
         </div>
 
         <div className="light-switch">

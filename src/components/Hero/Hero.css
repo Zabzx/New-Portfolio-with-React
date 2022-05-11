@@ -12,12 +12,23 @@
     align-items: center;
     gap: 1rem;
 }
+
 .my-link-logo {
     font-size: 3rem;
 }
+
+.github-link {
+    color: black;
+}
+
+.github-link-white {
+    color: white;
+  }
+  
 .twitter-link {
     color: #00acee;
 }
+
 /* Light Switch */
 .checkbox {
     opacity: 0;
