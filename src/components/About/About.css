@@ -52,3 +52,21 @@
 .about-txt p {
     line-height: 1.5;
 }
+
+/* Responsive Design for Mobile Phones */
+@media screen and (max-width: 600px) {
+    /* ABout */
+    .about {
+        flex-direction: column;
+    }
+
+    .about-tags {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .about-txt {
+        width: 100%;
+    }
+}

@@ -29,3 +29,16 @@ nav {
 .nav-icon:active {
     transform: scale(.2);
 }
+
+/* Responsive Design for Mobile Phones */
+@media screen and (max-width: 600px) {
+    nav {
+        width: 90%;
+        padding: 1rem 2rem;
+        gap: 1.5rem;
+    }
+    
+    .nav-icon {
+        font-size: 1.5rem;
+    }
+}

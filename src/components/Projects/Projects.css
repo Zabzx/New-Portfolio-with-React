@@ -76,6 +76,11 @@
 
 /* Responsive Design for Mobile Phones */
 @media screen and (max-width: 600px) {
+
+    #projects {
+        margin-top: 20rem;
+    }
+
    .portfolio__container {
        grid-template-columns: 1fr;
        gap: 1rem;

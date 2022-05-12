@@ -165,3 +165,35 @@
         trasform: translateY(0px);
     }
 }
+
+/* Responsive Design for Tablets */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Responsive Design for Mobile Phones */
+@media screen and (max-width: 600px) {
+    /* Header */
+    .my-link-logo {
+        font-size: 2rem;
+    }
+
+    h3.intro-heading {
+        font-size: 1.3rem;
+    }
+
+    h1.intro-heading {
+        font-size: 1.5rem
+    }
+
+    .passion {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .passion h1 {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+}
