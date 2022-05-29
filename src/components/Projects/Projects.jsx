@@ -19,7 +19,7 @@ const projectItems = [
     image: SPICE,
     title: 'SpiceUp!',
     github: 'https://github.com/Zabzx/spiceUp',
-    link: 'https://spiceup-v2.herokuapp.com/'
+    link: 'https://spicedup.netlify.app/'
   },
   {
     id: 3,
