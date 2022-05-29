@@ -15,6 +15,13 @@ const projectItems = [
     link: 'https://flowwd.netlify.app/'
   },
   {
+    id: 5,
+    image: SPICE,
+    title: 'SpiceUp!',
+    github: 'https://github.com/Zabzx/spiceUp',
+    link: 'https://spiceup-v2.herokuapp.com/'
+  },
+  {
     id: 3,
     image: CLOUDTECH,
     title: 'CloudTech',
@@ -29,19 +36,12 @@ const projectItems = [
     link: 'http://mytourni.com/'
   },
   {
-    id: 5,
-    image: SPICE,
-    title: 'SpiceUp!',
-    github: 'https://github.com/Zabzx/spiceUp',
-    link: 'https://spiced-up.netlify.app/'
-  },
-  {
     id: 4,
     image: DATE,
     title: 'Live Date Countdown',
     github: 'https://github.com/Zabzx/Live-Countdown',
     link: 'https://livedatecountdown.netlify.app/'
-  }
+  },
 ];
 
 const Projects = () => {

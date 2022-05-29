@@ -82,7 +82,11 @@ input, textarea {
 
 /* Responsive Design for Mobile Phones */
 @media screen and (max-width: 600px) {
+    #contact {
+        width: 90%;
+        margin: 3rem auto;
+    }
     .container.contact__container {
-        width: var(--container-width-sm)
+        width: var(--container-width-sm);
     }
 }
