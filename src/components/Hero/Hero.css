@@ -167,8 +167,10 @@
 }
 
 /* Responsive Design for Tablets */
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 2024px) {
+    .arrow-animation {
+        display: none;
+    }
 }
 
 /* Responsive Design for Mobile Phones */

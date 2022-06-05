@@ -28,6 +28,8 @@ body.dark-theme {
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  position: relative;
 }
 
 img {

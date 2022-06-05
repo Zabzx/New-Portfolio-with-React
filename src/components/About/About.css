@@ -53,6 +53,29 @@
     line-height: 1.5;
 }
 
+/* Responsive Design for Tablets */
+@media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    /* ABout */
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-tags {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .about-txt {
+        width: 80%;
+    }
+}
+
 /* Responsive Design for Mobile Phones */
 @media screen and (max-width: 600px) {
     /* ABout */

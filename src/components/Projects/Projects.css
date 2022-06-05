@@ -68,6 +68,9 @@
 
 /* Responsive Design for Tablets */
 @media screen and (max-width: 1024px) {
+    #projects {
+        margin-top: 20rem;
+    }
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;

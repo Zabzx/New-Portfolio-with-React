@@ -30,6 +30,19 @@ nav {
     transform: scale(.2);
 }
 
+/* Responsive Design for Tablets */
+@media screen and (max-width: 1024px) {
+    nav {
+        width: 80%;
+        padding: 1rem 2rem;
+        gap: 1.5rem;
+    }
+    
+    .nav-icon {
+        font-size: 1.5rem;
+    }
+}
+
 /* Responsive Design for Mobile Phones */
 @media screen and (max-width: 600px) {
     nav {
