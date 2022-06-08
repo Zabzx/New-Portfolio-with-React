@@ -40,7 +40,7 @@ const Tech = () => {
               <BsPatchCheckFill/>
               <div>
               <h4>Tailwind CSS</h4>
-              <small className="secondary-color">Intermediate</small>
+              <small className="secondary-color">Experienced</small>
               </div>
             </article>
 
@@ -48,7 +48,15 @@ const Tech = () => {
               <BsPatchCheckFill/>
               <div>
               <h4>React JS</h4>
-              <small className="secondaru-color">Experienced</small>
+              <small className="secondary-color">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Node JS</h4>
+              <small className="secondary-color">Beginner</small>
               </div>
             </article>
 
@@ -64,6 +72,14 @@ const Tech = () => {
               <BsPatchCheckFill/>
               <div>
               <h4>C#</h4>
+              <small className="secondary-color">Beginner</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Python</h4>
               <small className="secondary-color">Beginner</small>
               </div>
             </article>
@@ -95,7 +111,7 @@ const Tech = () => {
               <BsPatchCheckFill/>
               <div>
               <h4>Netlify</h4>
-              <small className="scondary-color">Experienced</small>
+              <small className="secondary-color">Experienced</small>
               </div>
             </article>
 
