@@ -106,11 +106,20 @@ const Tech = () => {
               <small className="secondary-color">Experienced</small>
               </div>
             </article>
+            
 
             <article className="experience__details">
               <BsPatchCheckFill/>
               <div>
               <h4>GitHub</h4>
+              <small className="secondary-color">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>MongoDB</h4>
               <small className="secondary-color">Experienced</small>
               </div>
             </article>
