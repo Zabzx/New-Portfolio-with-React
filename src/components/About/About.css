@@ -1,6 +1,7 @@
 /* About */
 .about-container {
     background-color: var(--primary-color);
+    padding-bottom: 4rem;
 }
 .about {
     padding-top: 5rem;
